@@ -1,5 +1,6 @@
-import { QuantumAlgorithms, QuantumSimulator } from "../algorithms/QuantumAlgorithms";
+import { QuantumAlgorithms } from "../algorithms/QuantumAlgorithms";
 import { QuantumCircuit } from "../circuit/QuantumCircuit";
+import { QuantumSimulator } from "../simulator/QuantumSimulator";
 import { QuantumVisualizer } from "../visualizer/QuantumVisualizer";
 
 export class QuantumExamples {
