@@ -1,0 +1,30 @@
+{
+  "name": "quantum-concept-library",
+  "version": "1.0.0",
+  "description": "Professional quantum computing simulation library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node dist/test.js",
+    "start": "node dist/examples.js"
+  },
+  "keywords": [
+    "quantum",
+    "quantum-computing",
+    "simulation",
+    "qubits",
+    "quantum-gates",
+    "quantum-algorithms"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/jest": "^30.0.0"
+  }
+}
